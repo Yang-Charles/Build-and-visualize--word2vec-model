@@ -3,7 +3,7 @@ Build and visualize the word2vec model on sogou news data（SogouCS）
 
 
 1.数据处理：
-本文使用数据集是搜狗实验室公开的SogouCS:news_sohusite_xml.dat 
+本文使用数据集是搜狗实验室公开的SogouCS:news_sohusite_xml.dat（http://www.sogou.com/labs/resource/cs.php） 
 
 2.编码后取出内容，并保存为txt文件,在终端输入：
 cat news_tensite_xml.dat | iconv -f gbk -t utf-8 -c | grep "<content>"  > corpus.txt
